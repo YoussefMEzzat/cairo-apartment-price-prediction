@@ -2,7 +2,7 @@
 
 End-to-end machine learning pipeline that predicts apartment prices (EGP) in Greater Cairo from listing features.
 
-![Results](images/results.png)
+![Results](results.png)
 
 ## Results (test set)
 | Metric | Value |
@@ -18,7 +18,7 @@ Best model: **Gradient Boosting** (tuned with RandomizedSearchCV), compared agai
 2. **Cleaning** – missing-value imputation, IQR outlier removal on price per m²
 3. **EDA** – price per m² by area, price vs size
 
-   ![EDA](images/eda.png)
+   ![EDA](eda.png)
 4. **Feature engineering** – total rooms, m² per room, log-transformed target
 5. **Modeling** – Scikit-learn Pipelines + ColumnTransformer (scaling, one-hot encoding)
 6. **Evaluation** – MAE, RMSE, R², MAPE, permutation feature importance
